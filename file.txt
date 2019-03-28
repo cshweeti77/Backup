@@ -1,0 +1,35 @@
+﻿Read() function retrieves the contents of entire file. However if we want smaller part of file, we can retrieve those in few bytes as::
+	f.read(4)  ←- 4 bytes
+eg:: f.write(“Python is a fantastic language.”)
+	print(f.read(4))
+	‘Pyth’
+
+
+
+Another way of reading from  a file is reading one line at a time python function readline() is used for this purpose.
+	f.readline()
+→ ‘Python is a fantastic \n’
+readline() function reads a stream of bytes beginning the current position until a new line character is encountered.
+	f.seek(line)
+	f.readline()
+ The function readline() returns the line of text file in the form of a list.
+Eg:: I am not good.
+        I hate politics.
+
+f.readlines()
+[‘I am not good.\n’, 	‘I hate politics.\n’]
+
+
+function writelines() takes a list of lines to be written in the file as an argument.
+S = [‘I am not good.\n’, 	‘I hate politics.\n’]
+f.writelines(s)
+f.close()
+f=open(“textfile.txt”,’r’)
+f.read()
+--→ output:: ‘I am not good.\n’, 	‘I hate politics.\n’
+
+
+if we wish to copy the contents of one file to another , it can be done as follows:
+	f1 = open(“old.txt”,’r’)
+	f2 = open(“new.txt”,’w’)
+	f2.write(f1)

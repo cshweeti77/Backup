@@ -1,0 +1,13 @@
+﻿Strings
+membership::
+1. checks individual characters in strings
+2. uses ‘in’ operator
+	eg: ‘h’ in hello
+		true
+3.checks case sensitive
+
+Built-in-functions on strings
+1. count: returns the no. of occurance of particular character
+	‘cycle’.count(‘c’)
+	->2
+2.

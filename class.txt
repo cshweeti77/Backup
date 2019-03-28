@@ -1,0 +1,29 @@
+﻿Random[0,1] –>import random
+randint(1,n)-→including 1 and n
+
+function
+
+1. ceil(x)
+Returns the smallest integer greater than or equal to x
+2. floor(x)
+Returns the largest integer less or equal to x
+3. fabs(x)
+Returns the absolute value of x
+4. exp(x)
+Returns the value of expression e**x
+5. log(x,b)
+Returns the log(x) to the base b. In the case of absence of the second argument, the logarithmic value of x to base e is returned.
+6. log 10(x)
+Returns the log(x) to the base 10. { equivalent to math.log(x,10)}
+7. pow(x,y)
+Returns x raised to the power y i.e. x**y
+8. sqrt(x)
+Returns the square root of x
+9. cos(x)
+Returns the cosine of x radians
+10. sin(x)
+Returns the sine of x radians
+11. tan(x)
+Returns the tangent of x radians
+
+

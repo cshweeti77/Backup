@@ -1,0 +1,96 @@
+    1  sudo apt install gcc
+    2  sudo apt install libreoffice
+    3  sudo apt install chromium-browser
+    4  sudo apt update
+    5  c
+    6  vi bash.rc
+    7  clear
+    8  python
+    9  ~/.bashrc
+   10  sudo su
+   11  clear
+   12  ~/.bashrc
+   13  sudo update-alternatives --config python
+   14  clear
+   15  cd `
+   16  exit()
+   17  c
+   18  clear
+   19  sudo apt install vlc
+   20  cd
+   21  ls
+   22  gcc
+   23  sudo apt install gcc
+   24  clear
+   25  cd ~
+   26  gedit .bash_aliases
+   27  c
+   28  gedit .bash_aliases
+   29  cd
+   30  cd ~
+   31  gedit .bash_aliases
+   32  sudo su
+   33  git
+   34  sudo apt install git
+   35  sudo apt-get install git
+   36  sudo su
+   37  c
+   38  python
+   39  ls
+   40  cd gitfile/
+   41  ls
+   42  python fibo.py
+   43  vi fibo.py 
+   44  git init
+   45  git add fibo.py
+   46  git commit -m "first Program"
+   47  c
+   48  c
+   49  clear
+   50  sudo apt-get update
+   51  c
+   52  clear
+   53  sudo apt-get -f dist-upgrade
+   54  sudo apt-get -f install
+   55  sudo apt install git
+   56  sudo apt install gcc
+   57  cd
+   58  ls
+   59  git
+   60  mkdir gitfile
+   61  cd gitfile/
+   62  git init
+   63  cd .ssh/
+   64  vi fibo.py
+   65  ls
+   66  vi fibo.py
+   67  cleas
+   68  clear
+   69  cd
+   70  sudo apt install vim
+   71  ls
+   72  cd gitfile/
+   73  ls
+   74  vi fibo.py
+   75  python
+   76  python fibo.py 
+   77  cd
+   78  gedit .bashrc
+   79  gedit .bash rc
+   80  gedit .bashrc
+   81  c
+   82  clear
+   83  sudo su
+   84  git config --global.user "chauhanshweety@gmail.com"
+   85  git config --global user.email "email@example.com"
+   86  git config --global user.email "chauhanshweety@gmail.com"
+   87  git config --global user.name "Sweeti Chauhan"
+   88  git add fibo.py
+   89  cd gitfile/
+   90  git add fibo.py
+   91  git commit -m "First Program"
+   92  git remote add origin git@github.com:cshweeti77/Python-file.git
+   93  git push -u origin master
+   94  ssh -keygen -t rsa -b 4096 -c "chauhanshweety@gmail.com"
+   95  history
+   96  history > Day1linux.txt
